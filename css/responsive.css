@@ -1,0 +1,46 @@
+body{
+	padding: 0;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media screen and (min-width: 360px) {
+	#maincontent {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	header {
+		width: 100%;
+	}
+
+	.heading {
+		size: 30px;
+	}
+
+	#map-container {
+		height: 50em;
+	}
+
+	#map {
+		height: 100%;
+	}
+
+	.filter-options {
+		display: none;
+	}
+
+	#restaurants-list > li {
+		margin: auto;
+		padding: 0;
+		width: 100%;
+	}
+	
+	#footer {
+		font-size: 26px;
+		margin-top: auto;
+		width: 100%;
+	}
+}
