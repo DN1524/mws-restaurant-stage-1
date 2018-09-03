@@ -16,12 +16,12 @@ body{
 		width: 100%;
 	}
 
-	.heading {
-		size: 30px;
+	.heading-link {
+		font-size: 20px;
 	}
 
 	#map-container {
-		height: 50em;
+		height: 35em;
 	}
 
 	#map {
@@ -32,14 +32,26 @@ body{
 		display: none;
 	}
 
-	#restaurants-list > li {
+	#restaurants-list li {
 		margin: auto;
 		padding: 0;
 		width: 100%;
+		text-align: center;
+		padding-bottom: 5em;
+		margin-bottom: 3em;
+	}
+
+	#restaurants-list li a {
+		font-size: 20px;
+		width: 50%;
+	}
+
+	#restaurants-list li p {
+		font-size: 18px;
 	}
 	
 	#footer {
-		font-size: 26px;
+		font-size: 15px;
 		margin-top: auto;
 		width: 100%;
 	}
