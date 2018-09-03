@@ -97,3 +97,13 @@ body{
 		font-size: 22px;
 	}
 }
+
+@media screen and (min-width: 745px) {
+	#restaurants-list li a {
+		width: 40%;
+	}
+
+	#restaurants-list li h1 {
+		font-size: 32px;
+	}
+}
