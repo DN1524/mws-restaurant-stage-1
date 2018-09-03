@@ -56,3 +56,9 @@ body{
 		width: 100%;
 	}
 }
+
+@media screen and (min-width: 406px) {
+	.heading-link {
+		font-size: 25px;
+	}
+}
