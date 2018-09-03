@@ -76,3 +76,10 @@ body{
 		display: flex;
 	}
 }
+
+@media screen and (min-width: 471px)  {
+	.heading-link {
+		display: block;
+		padding-top: 23px;
+	}
+}
