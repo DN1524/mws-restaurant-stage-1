@@ -62,3 +62,17 @@ body{
 		font-size: 25px;
 	}
 }
+
+@media screen and (min-width: 450px) {
+	#restaurants-list {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	#restaurants-list li {
+		width: 65%;
+	}
+	.filter-options {
+		display: flex;
+	}
+}
