@@ -113,3 +113,46 @@
 		font-size: 18px;
 	}
 }
+
+@media screen and (min-width: 1000px) {
+	.inside {
+		display: relative;
+	}
+
+	.inside header {
+		position: fixed;
+	}
+
+	#breadcrumb {
+		width: 50%;
+	}
+
+	#restaurant-container {
+		width: 50%;
+	}
+
+	#restaurant-img, #restaurant-cuisine {
+		margin: 2em 0 2em;
+	}
+
+	.inside #map-container {
+  		background: blue none repeat scroll 0 0;
+  		height: 91.5%;
+  		position: fixed;
+  		right: 0;
+  		top: 80px;
+  		width: 50%;
+	}
+
+	#restaurant-address {
+		text-align: left;
+	}
+
+	#reviews-list li {
+		width: 45%;
+	}
+
+	.inside #footer {
+		width: 50%;
+	}
+}
