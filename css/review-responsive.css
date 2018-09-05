@@ -64,3 +64,9 @@
 
 	}
 }
+
+@media screen and (min-width: 400px) {
+	#restaurant-hours tr td {
+		font-size: 15px;
+	}
+}
