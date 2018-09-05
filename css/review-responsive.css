@@ -43,6 +43,10 @@
 		width: 100%;
 	}
 
+	#restaurant-name {
+		text-align: center;
+	}
+
 	#restaurant-hours tr td {
 		line-height: 2em;
 		font-size: 13px;
