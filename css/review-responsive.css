@@ -74,3 +74,42 @@
 		font-size: 15px;
 	}
 }
+
+@media screen and (min-width: 500px) {
+	#breadcrumb li {
+		font-size: 22px;
+	}
+
+	#maincontent {
+		width: 100%;
+	}
+
+	#restaurant-img, #restaurant-cuisine {
+		display: block;
+		margin: 0 auto 2em auto;
+		margin-left: auto;
+		margin-right: auto;
+		width: 500px;
+	}
+
+	#restaurant-name {
+		font-size: 28px;
+	}
+
+	#restaurant-cuisine {
+		font-size: 20px;
+	}
+
+	#restaurant-hours tr td {
+		font-size: 18px;
+	}
+
+	#restaurant-address {
+		text-align: center;
+		font-size: 24px;
+	}
+
+	#reviews-list li p {
+		font-size: 18px;
+	}
+}
