@@ -5,7 +5,7 @@ body{
 	flex-wrap: wrap;
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 320px) {
 	#maincontent {
 		width: 100%;
 		margin: 0;

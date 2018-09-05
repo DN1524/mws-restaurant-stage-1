@@ -1,4 +1,66 @@
-body {
+.inside {
 	display: flex;
 	flex-wrap: wrap;
+}
+
+@media screen and (min-width: 320px) {
+	.inside header {
+		position: static;
+	}
+
+	#breadcrumb {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	#breadcrumb li {
+		font-size: 18px;
+	}
+
+	#maincontent {
+		margin-top: 2em;
+	}
+
+	.inside #map-container {
+		width: 100%;
+		height: 25em;
+		padding: 0;
+		margin: 0;
+	}
+
+	#map {
+		width: 100%;
+		height: 100%;
+	}
+
+	#restaurant-container, #reviews-container {
+		width: 100%;
+		padding: 0;
+	}
+
+	#restaurant-img, #restaurant-cuisine {
+		width: 100%;
+	}
+
+	#restaurant-hours tr td {
+		line-height: 2em;
+		font-size: 13px;
+		padding-right: 1.5em;
+	}
+
+	#reviews-container  {
+		margin: 3em 0 3em;
+	}
+
+	#reviews-list li p {
+		font-size: 16px;
+	}
+
+	.inside #footer {
+		font-size: 14px;
+		padding: 1em 0 1em;
+		width: 100%;
+
+	}
 }
