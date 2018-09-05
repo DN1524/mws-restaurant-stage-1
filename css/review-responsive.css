@@ -1,9 +1,9 @@
-.inside {
-	display: flex;
-	flex-wrap: wrap;
-}
-
 @media screen and (min-width: 320px) {
+	.inside {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
 	.inside header {
 		position: static;
 	}
