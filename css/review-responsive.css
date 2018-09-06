@@ -4,9 +4,9 @@
 		flex-wrap: wrap;
 	}
 
-	.inside header {
+	/*.inside header {
 		position: static;
-	}
+	}*/
 
 	#breadcrumb {
 		width: 100%;
