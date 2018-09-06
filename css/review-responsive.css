@@ -76,6 +76,12 @@
 }
 
 @media screen and (min-width: 500px) {
+	nav h1 a {
+		display: block;
+		padding-top: 18px;
+		font-size: 26px;
+	}
+
 	#breadcrumb li {
 		font-size: 22px;
 	}
