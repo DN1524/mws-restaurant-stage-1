@@ -129,12 +129,20 @@
 		position: fixed;
 	}
 
-	#breadcrumb {
-		width: 50%;
+	#restaurant-name {
+		margin-bottom: 0;
+	}
+
+	#restaurant-container, .inside #footer, #breadcrumb {
+		width: 38%;
+	}
+
+	#restaurant-img, #restaurant-cuisine {
+		width: 100%;
 	}
 
 	#restaurant-container {
-		width: 50%;
+		margin-top: 6em;
 	}
 
 	#restaurant-img, #restaurant-cuisine {
@@ -147,7 +155,7 @@
   		position: fixed;
   		right: 0;
   		top: 80px;
-  		width: 50%;
+  		width: 62%;
 	}
 
 	#restaurant-address {
@@ -155,10 +163,6 @@
 	}
 
 	#reviews-list li {
-		width: 45%;
-	}
-
-	.inside #footer {
-		width: 50%;
+		width: 33.5%;
 	}
 }
