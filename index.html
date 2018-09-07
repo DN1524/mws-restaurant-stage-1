@@ -13,7 +13,7 @@
 <body>
   <header>
     <nav>
-      <h1><a tabindex='1' class="heading-link" href="/">Restaurant Reviews</a></h1>
+      <h1><a tabindex='1' class="heading-link" aria-label="home" href="/">Restaurant Reviews</a></h1>
     </nav>
   </header>
 
@@ -24,10 +24,10 @@
     <section>
       <div class="filter-options">
         <h2>Filter Results</h2>
-        <select tabindex="2" id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
+        <select tabindex="2" id="neighborhoods-select" aria-label="filter options" role="tablist" name="neighborhoods" onchange="updateRestaurants()">
           <option value="all">All Neighborhoods</option>
         </select>
-        <select tabindex="2" id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
+        <select tabindex="2" id="cuisines-select" aria-label="filter options" role="tablist" name="cuisines" onchange="updateRestaurants()">
           <option value="all">All Cuisines</option>
         </select>
       </div>
