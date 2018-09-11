@@ -143,6 +143,8 @@ fillReviewsHTML = (reviews = self.restaurant.reviews) => {
   const ul = document.getElementById('reviews-list');
   reviews.forEach(review => {
     ul.appendChild(createReviewHTML(review));
+    ul.tabIndex = "0";
+    ul.setAttribute("aria-label", "Reviews");
   });
   container.appendChild(ul);
 }
