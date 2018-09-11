@@ -123,7 +123,6 @@ fillRestaurantHoursHTML = (operatingHours = self.restaurant.operating_hours) => 
     row.appendChild(time);
     
     hours.setAttribute("aria-label", "restaurant-hours");
-    hours.tabIndex = "0";
     hours.appendChild(row);
   }
 }
