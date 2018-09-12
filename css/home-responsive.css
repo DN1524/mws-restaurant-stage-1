@@ -78,9 +78,8 @@ body{
 }
 
 @media screen and (min-width: 471px)  {
-	.heading-link {
-		display: block;
-		padding-top: 23px;
+	header h1 {
+		padding-top: 1em;
 	}
 }
 
