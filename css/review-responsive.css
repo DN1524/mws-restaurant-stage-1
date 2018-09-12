@@ -4,6 +4,10 @@
 		flex-wrap: wrap;
 	}
 
+	.inside header {
+		position: static;
+	}
+
 	#breadcrumb {
 		width: 100%;
 		margin: 0;
@@ -15,7 +19,7 @@
 	}
 
 	#maincontent {
-		margin-top: 2em;
+		margin-top: 1em;
 	}
 
 	.inside #map-container {
@@ -61,7 +65,6 @@
 		font-size: 14px;
 		padding: 1em 0 1em;
 		width: 100%;
-
 	}
 }
 
@@ -127,6 +130,10 @@
 
 	#restaurant-name {
 		margin-bottom: 0em;
+	}
+
+	#maincontent {
+		margin-top: 2em;
 	}
 
 	#restaurant-container, .inside #footer, #breadcrumb {
