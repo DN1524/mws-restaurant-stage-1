@@ -165,7 +165,11 @@
 		text-align: left;
 	}
 
-	#reviews-list li {
-		width: 33.5%;
+	#reviews-list {
+		width: 38%;
+	}
+
+	#reviews-list li p {
+		width: 100%;
 	}
 }
