@@ -158,7 +158,7 @@
 
 	.inside #map-container {
   		background: blue none repeat scroll 0 0;
-  		height: 91.5%;
+  		height: 91%;
   		position: fixed;
   		right: 0;
   		top: 80px;
@@ -172,4 +172,23 @@
 	#reviews-list li p {
 		width: 100%;
 	}
+	
+	@media screen and (min-height: 600px) {
+		.inside #map-container {
+			height: 87%;
+		}
+	}
+
+	@media screen and (min-height: 813px) {
+		.inside #map-container {
+			height: 89.5%;
+		}
+	}
+
+	@media screen and (min-height: 814px) {
+		.inside #map-container {
+			height: 91.5%;
+		}
+	}
 }
+
