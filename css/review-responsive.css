@@ -136,7 +136,7 @@
 		margin-top: 2em;
 	}
 
-	#restaurant-container, .inside #footer, #breadcrumb {
+	#restaurant-container, .inside #footer, #breadcrumb, #reviews-list {
 		width: 38%;
 	}
 
@@ -163,10 +163,6 @@
 
 	#restaurant-address {
 		text-align: left;
-	}
-
-	#reviews-list {
-		width: 38%;
 	}
 
 	#reviews-list li p {
