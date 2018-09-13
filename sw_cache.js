@@ -36,6 +36,7 @@ self.addEventListener("install", (e) => {
 				cache.addAll(cacheFiles);
 			})
 			.then(() => self.skipWaiting())
+			.catch(err => console.log(`Service Worker: Caching Failed! : ${err}`))
 	);
 })
 
@@ -46,6 +47,7 @@ self.addEventListener("activate", (e) => {
 
 // Calls fetch
 self.addEventListener("fetch", e => {
-	console.log("Service Worker: Fetching");
-	e.respondWith(fetch(e.request).catch(() => caches.match(e.request)));
+	console.log("Service Worker: Fetching Files...");
+	e.respondWith(fetch(e.request)
+		.catch(() => caches.match(e.request)));
 });
