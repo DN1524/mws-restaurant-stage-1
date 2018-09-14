@@ -48,6 +48,30 @@ self.addEventListener("activate", (e) => {
 // Calls fetch
 self.addEventListener("fetch", e => {
 	console.log("Service Worker: Fetching Files...");
-	e.respondWith(fetch(e.request)
-		.catch(() => caches.match(e.request)));
+	e.respondWith(
+		caches.match(e.request).then((response) => {
+			if (response) {
+				// Returns response if request is found in cache
+				console.log(`Service Worker: Found ${e.request} in cache`);
+				return response;
+
+			} else {
+				// If response does not exist in cache, the 
+				// service worker fetches a new response.
+				console.log(`Service Worker: ${e.request} not found in cache!. Fetching...`);
+				return fetch(e.request)
+				.then (response => {
+					// Creates a new response for the new request
+					const clonedResponse = response.clone();
+					// caches needed files then adds new request
+					// to cloned response
+					caches.open(cacheName).then(cache => {
+						cache.put(e.request, clonedResponse);
+					})
+					return response;
+				})
+				.catch(err => console.error(err));
+			}
+		})
+	)
 });
