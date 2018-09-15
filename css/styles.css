@@ -282,6 +282,13 @@ nav h1 a {
 #reviews-list li p {
   margin: 0 0 10px;
 }
+#reviews-list li p:nth-child(even) {
+  background: #e8e8e8;
+}
 #restaurant-hours td {
   color: #666;
+}
+
+.leaflet-container .leaflet-control-attribution {
+  background: white;
 }
