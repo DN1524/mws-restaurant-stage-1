@@ -15,4 +15,22 @@ The purpose of this project to take the given web pages and make sure that they 
 
 ## How to Run The Program
 
-You'll need to run a local server to properly view the project. You can use Python to run the server through a command prompt such as git bash. If you do not have Python installed, go to https://www.python.org/ and download it appropriate for your machine. When Python is installed, make sure it's installed by typing `python -V` to check your version. When installed, `python -m http.server`
+You'll need to run a local server to properly view the project. You can use Python to run the server through a command prompt such as git bash. If you do not have Python installed, go to https://www.python.org/ and download it appropriate for your machine. When Python is installed, make sure it's installed by typing `python -V` to check your version. When installed, run: `python -m http.server` on the command prompt.
+
+## Contributors
+
+- forbiddenvoid
+- genchau
+- Focus3D
+- DN1524 (Student)
+
+## Acknowledgments
+
+- Thanks to Mathew Cranford for the walkthroughs for this project: https://matthewcranford.com/category/blog-posts/walkthrough/restaurant-reviews-app/
+
+- Thanks to the YouTube channel Traversy Media for help explaining and walking through Service Workers:https://www.youtube.com/watch?v=ksXwaWHCW6k&t=1067s
+
+#This project uses:
+- Jquery
+- unpkg.com
+- mapbox
